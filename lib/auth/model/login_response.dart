@@ -7,10 +7,7 @@ class LoginResponse {
       this.lastName,
       this.gender,
       this.image,
-      this.token,
-
-  });
-
+      this.token,});
   LoginResponse.fromJson(dynamic json) {
     id = json['id'];
     username = json['username'];

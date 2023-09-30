@@ -1,10 +1,7 @@
-
-class LoginRequest {
+class LoginRequest{
   LoginRequest({
-  this.username,
-    this.password,
-
-});
+      this.username,
+      this.password,});
 
   LoginRequest.fromJson(dynamic json) {
     username = json['username'];
@@ -19,5 +16,4 @@ class LoginRequest {
     map['password'] = password;
     return map;
   }
-
 }
